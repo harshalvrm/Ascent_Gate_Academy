@@ -2199,3 +2199,8 @@ scroll To Top
     text-transform: uppercase;
     font-weight: normal;
 }
+
+/* Added CSS */
+.logo{
+    width: 200px;
+}
