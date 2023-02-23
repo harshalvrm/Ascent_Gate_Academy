@@ -52,6 +52,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
     color: #fff;
 }
 
+
 ::-moz-selection {
     background: #f1556a;
     color: #fff;
@@ -576,7 +577,7 @@ a.btn-area:hover:after{
     font-size: 30px;
     font-weight: 400;
     line-height: 42px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .welcome-area .designation .app { color: #f1556a }
@@ -2203,4 +2204,27 @@ scroll To Top
 /* Added CSS */
 .logo{
     width: 200px;
+}
+
+.description{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #1e1e1e;
+    margin-bottom: 3px;
+}
+
+.education{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #205EAB;
+}
+
+.app{
+      font-size: 25px;
+      font-size: 25px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+
 }
