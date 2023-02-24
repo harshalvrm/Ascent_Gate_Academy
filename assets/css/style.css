@@ -685,7 +685,7 @@ a.btn-area:hover:after{
     0% {
         opacity: 1;
         -webkit-transform: scale(0.9);
-        transform: scale(0.9);
+        transform: scale(0.9);icon
     }
     50% {
         opacity: 1;
@@ -736,7 +736,7 @@ a.btn-area:hover:after{
 }
 
 .features-left-preview .preview:hover img {
-    margin-top: -1696px;
+    margin-top: -253px;
 }
 
 .features-content span {
@@ -786,7 +786,7 @@ a.btn-area:hover:after{
 .video-area {
     text-align: center;
     position: relative;
-    background: url(https://via.placeholder.com/965x498) no-repeat center center fixed;
+    background: url(/assets/Assets_2.0/965x498.jpg) no-repeat center center fixed;
     z-index: 1;
     padding: 40px 0
 }
@@ -2227,4 +2227,8 @@ scroll To Top
       font-family: 'Poppins', sans-serif;
       font-weight: 300;
 
+}
+
+.about-icon{
+    margin-bottom: 20px;
 }
