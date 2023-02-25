@@ -195,14 +195,14 @@ a,
 
 a.btn-area  {
     width: 195px;
-    border: 2px solid #f1556a;
+    border: 2px solid #205EAB;
     border-radius: 40px;
     padding: 12px 25px;
     text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 14px;
-    color: #f1556a;
+    color: #205EAB;
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -230,7 +230,7 @@ a.btn-area:hover { color: #fff }
 
 a.btn-area:hover:before,
 a.btn-area:hover:after{
-    background-color: #f1556a;
+    background-color: #205EAB;
     height:60%;
 }
 
@@ -244,11 +244,11 @@ a.btn-area:hover:after{
 .left_question_inner .card .card-heading h4 a i:before,
 .testimonials_area .owl-controls .owl-dots .owl-dot:hover,
 .testimonials_area .owl-controls .owl-dots .owl-dot.active {
-    background: -webkit-linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
-    background: -moz-linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
-    background: -o-linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
-    background: -ms-linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
-    background: linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
+    background: -webkit-linear-gradient(145deg, #265C9C 0%, #265C9C 100%);
+    background: -moz-linear-gradient(145deg, #265C9C 0%, #265C9C 100%);
+    background: -o-linear-gradient(145deg, #265C9C 0%, #265C9C 100%);
+    background: -ms-linear-gradient(145deg, #265C9C 0%, #265C9Cs 100%);
+    background: linear-gradient(145deg, #265C9C 0%, #265C9C 100%);
 }
 
 /* left and right images decor */
@@ -559,7 +559,7 @@ a.btn-area:hover:after{
     height: 0;
     border-left: 26px solid transparent;
     border-right: 0px solid transparent;
-    border-top: 24px solid #f1556a; 
+    border-top: 24px solid #18447c; 
 }
 
 .welcome-area .header-text h1 {
@@ -1498,7 +1498,7 @@ h4.contact-title {
 .contact-address ul li i {
     height: 30px;
     width: 30px;
-    border: 2px solid #f1556a;
+    border: 2px solid #205EAB;
     color: #272727;
     border-radius: 50%;
     text-align: center;
