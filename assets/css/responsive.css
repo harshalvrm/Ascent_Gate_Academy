@@ -18,7 +18,7 @@
     .logo { text-align: center; float: none!important }
 
     .header-area {
-        background: linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
+        background: linear-gradient(145deg, #5c92c5  0%, #153e6d  100%);
         padding: 0px 15px;
         height: 80px;
         box-shadow: none;
@@ -62,7 +62,7 @@
     }
     .header-area .main-nav .nav li a:hover {
         background: #fff;
-        color: #f1556a;
+        color: #153e6d;
     }
 
 
