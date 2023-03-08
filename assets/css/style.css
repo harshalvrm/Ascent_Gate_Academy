@@ -1622,12 +1622,12 @@ h4.contact-title {
 /*    Blog Page
 /* =================================== */
 
-.breadcam_bg {
+/* .breadcam_bg {
     background-image: url(../img/blog/blog-page/bradcam.png);
     background-position: center bottom;
     padding: 160px 0;
     background-repeat: no-repeat;
-}
+} */
 
 .bradcam_text h1 {
     font-size: 42px;
