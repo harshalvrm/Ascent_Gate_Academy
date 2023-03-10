@@ -2230,7 +2230,6 @@ scroll To Top
       font-size: 25px;
       font-family: 'Poppins', sans-serif;
       font-weight: 300;
-
 }
 
 .about-icon{
@@ -2242,13 +2241,17 @@ scroll To Top
 } 
 
 .CourseSection{
-    margin: 100px 70px;
+    margin: 100px 50px;    
     display: flex;
-    /* justify-content: space-between;     */
+    justify-content: space-between;  
+}
+
+.leftDetails{
+    
 }
 
 .rightDetails{
-    justify-self: end;
+    padding: 0 50px
 }
 
 
