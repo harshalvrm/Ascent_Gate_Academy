@@ -2254,7 +2254,10 @@ scroll To Top
     padding: 0 50px
 }
 
-
+.testi{
+    border: solid 0px #000;
+    border-radius: 50%;
+}
 
 
 
