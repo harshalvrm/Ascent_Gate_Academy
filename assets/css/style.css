@@ -2239,9 +2239,23 @@ scroll To Top
 
 .welcomeImg{
     margin: 5px 0 0 50px;
+} 
+
+.CourseSection{
+    margin: 100px 70px;
+    display: flex;
+    /* justify-content: space-between;     */
 }
 
-.scrollbar-juicy-peach::-webkit-scrollbar-track {
+.rightDetails{
+    justify-self: end;
+}
+
+
+
+
+
+/* .scrollbar-juicy-peach::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: #F5F5F5;
     border-radius: 10px;
@@ -2656,4 +2670,4 @@ scroll To Top
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: #F5F5F5;
     border-radius: 10px;
-}
+} */
