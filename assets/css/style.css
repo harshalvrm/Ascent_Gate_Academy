@@ -396,6 +396,7 @@ a.btn-area:hover:after{
     padding: 0px 20px;
     position: relative;
     z-index: 999;
+    border-radius: 20px;
 }
 
 .header-area .main-nav .nav li {
