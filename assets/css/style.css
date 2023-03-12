@@ -537,7 +537,7 @@ a.btn-area:hover:after{
 .welcome-area {
     height: 100vh;
     min-height: 700px;
-    /* background: url(../img/welcome-area/banner-bg.png) no-repeat 100% 50%; */
+    background: url(../Assets_2.0/Web_Interface_light.png) no-repeat 80% 50%;
     /* background: url(/assets/Assets_2.0/process.png) no-repeat 100% 50%; */
 }
 
