@@ -41,11 +41,11 @@
 </head>
 <body>
 
-        <header class="header-area transition header-sticky">
-            <div class="container">
+        <header class="header-area transition header-sticky ">
+            <div class="">
                 <div class="row">
                     <div class="col-12">
-                        <nav class="main-nav">
+                        <nav class="main-nav  navbar-expand-lg sticky-top">
                             <!-- Logo Start -->
                             <a href="index.html" class="logo transition">
                                 <img class="logo" src="./assets/Assets 2.0/Logo transparent.png" alt="">
@@ -53,8 +53,8 @@
                             <!-- Logo End -->
 
                             <!-- Menu Start -->
-                            <ul class="nav transition">
-                                <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
+                            <ul class="nav transition ">
+                                <li class="scroll-to-section"><a href="./index.html" class="menu-item">Home</a></li>
                                 <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
                                 <li class="scroll-to-section"><a href="#screen-shots" class="menu-item">Gallery</a></li>
                                 <li class="scroll-to-section"><a href="#team" class="menu-item">Team</a></li>
@@ -75,16 +75,21 @@
 
         <!-- Course Details-->
     <div class="PenDrive">
-        <div class="CourseSection">
-            <div class="leftDetails">
+        <div class="CourseSection d-flex flex-sm-column flex-md-column flex-xl-row justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center ">
+            <div class="leftDetails col-6 h-auto">
                 <div class="CourseThumbnail">
-                    <img src="https://via.placeholder.com/900x700.jpg" alt="Pen Drive Course Detail">
+                    <img src="./assets/Assets_2.0/Pendrive_Course.jpg" alt="Pen Drive Course Detail">
                 </div>
             </div>
 
-            <div class="rightDetails">
+            <div class="rightDetails col-6">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                </ol>
+
                 <div class="heading">Pen Drive Course for GATE Mechanical</div>
-                <div class="price"> ₹11,990.00 - ₹19,490.00 </div>
                 <div class="desc">Video Lectures for GATE Mechanical and e books in pen drive which can be accessed on laptop/PC or mobile or both. E-Study Materials, Printed study materials , Live Doubt Clearing sessions, Online Test Series and Much More.  Ideal for Mechanical engineering students which Includes : </div>
                 <div class="features">
                     <li>Video Lectures in 128 GB pen drive which can be accessed on laptop and mobile(optional)</li>
@@ -117,8 +122,12 @@
                       <option value="No">No</option>
                     </select>
                     <br><br>
+                    
+                    <div>Access in Both PC and Mobile</div>
 
-                    <input type="number" id="quantity" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
+                    <div class="price"><s>₹15,990.00</s> <span class="font-weight-bold"> ₹13,990.00 </span> </div>
+
+                    <input type="number" id="quantity" class="input-text qty text col-2" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
                     
                     <br><br>
                     <button class="cart">Add to Cart </button>
@@ -249,10 +258,21 @@
         </section>             
     </div>    
 
+    -----------------------------------------------------------------------------------------------------------------
+
+
+    
+    -----------------------------------------------------------------------------------------------------------------
+
 <!-- magnific popup js -->
 <script src="assets/js/magnific-popup.min.js"></script>
 <!-- Custom Functions -->
 <script src="assets/js/theme.js"></script>
+
+<!-- For Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>
