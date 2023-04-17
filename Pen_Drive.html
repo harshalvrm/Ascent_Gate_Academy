@@ -36,6 +36,8 @@
                 <link rel="stylesheet" href="assets/css/magnific-popup.css">
                 <!-- Main Stylesheet -->
                 <link rel="stylesheet" href="assets/css/style.css">
+                <!-- Pen Drive Stylesheet -->
+                <link rel="stylesheet" href="assets/css/penDrive.css">
                 <!-- Footer Stylesheet -->
                 <link rel="stylesheet" href="assets/css/footer.css">
                 <!-- media-queries (Responsive File) -->
@@ -44,6 +46,7 @@
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
+<body>    
 
     <header class="header-area transition header-sticky ">
             <div class="">
@@ -51,9 +54,9 @@
                     <div class="col-12">
                         <nav class="main-nav navbar-expand-lg sticky-top">
                             <!-- Logo Start -->
-                            <a href="index.html" class="logo transition mt-4 ml-5">
+                            <a href="index.html" class="logo transition ml-5">
                                 <!-- <img class="logo" src="./assets/Assets_2.0/Logo transparent.png" alt="Logo">  -->
-                                <img class="logo" src="./assets/Assets_2.0/GateLogoOld.png" alt="Logo">
+                                <img class="logo" src="./assets/Assets_2.0/Logo transparent.png" alt="Logo">
                             </a>
                             <!-- Logo End -->
 
@@ -80,19 +83,16 @@
     <!-- Course Details-->
     <div class="PenDrive">
         <div class="CourseSection d-flex flex-sm-column flex-md-column flex-xl-row justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center">
-            <div class="leftDetails col-7 p-4">
+            
+            <div class="leftDetails col-6 p-4">
                 <div class="CourseThumbnail w-100">
                     <img src="./assets/Assets_2.0/PEN_DRIVE_COURSE_(ME).png" alt="Pen Drive Course Detail">
                 </div>
             </div>
 
             <div class="rightDetails col-6 pl-4">
-                <!-- <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Courses</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Pen Drive Course</li>
-                </ol> -->
 
+          
                 <div class="heading h2 text-dark">Pen Drive Course for GATE Mechanical</div>
 
                 <!-- Rating -->
@@ -107,8 +107,9 @@
                     <div class="text-dark font-weight-bold"> In Stock</div>
                 </div>
                 
-                <div class="desc">Ideal for Mechanical engineering students, Ascent GATE Academy offers video lectures and e-books on pen drives for laptop/PC and mobile access. Other resources include e-study materials, printed study materials, live doubt clearing sessions, and online test series.</div>
-                <div class="features mt-2">
+                <div class="Course_desc mt-3">Ideal for Mechanical engineering students, Ascent GATE Academy offers video lectures and e-books on pen drives for laptop/PC and mobile access. Other resources include e-study materials, printed study materials, live doubt clearing sessions, and online test series.</div>
+
+                <div class=" mt-3">
                     <li class="list-unstyled"><i class="fa-sharp fa-solid fa-circle-check" style="color: #3db899;"></i> 128 GB Video Lectures in pen drive which can be accessed on laptop and mobile(optional)</li>
                     <li class="list-unstyled"><i class="fa-sharp fa-solid fa-circle-check" style="color: #3db899;"></i> Comprehensive study material in printed and e book form</li>
                     <li class="list-unstyled"><i class="fa-sharp fa-solid fa-circle-check" style="color: #3db899;"></i> Live doubt clearing sessions</li>
@@ -129,14 +130,15 @@
                     <i class="fa-sharp fa-solid fa-circle-check" style="color: #3db899;"></i>
                     Android mobile Access
                 </label> -->
-                <br>
-                <form action="/action_page.php">
-                    <label for="target">Target Year</label>
-                    <select name="target" id="gate">
+                
+                <form class="mt-3 target_year" action="/action_page.php">
+
+                    <label class="targetYear" for="target">Target Year</label>
+                    <select class="targetDrop" name="target" id="gate">
                       <option value="2023">GATE 2023</option>
                       <option value="2024">GATE 2024</option>
                     </select>
-                    <br><br>
+                    <br>
 
                     
                     <!-- <select name="studyMaterial" id="cars">
@@ -148,13 +150,14 @@
                     
                     <!-- 
                     <label for="study material">Enter quanitity	</label>
-                    <input type="number" id="quantity" class="input-text qty text col-2" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
+                    <input type="number" id="quantity" class="input-text qty text
+                     col-2" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
                     -->
 
-                    <div class="container mb-3">
+                    <div class="price my-3">
                          <div class="h4 text-dark">Price</div>
 
-                        <div class="price text-dark"><s>₹15,990.00</s> <span class="final price font-weight-bold"> ₹13,990.00 </span> </div>
+                        <div class="price h4 text-dark"><s>₹15,990.00</s> <span class="final price font-weight-bold"> ₹13,990.00 </span> </div>
                     </div>
 
 
